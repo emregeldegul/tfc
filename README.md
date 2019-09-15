@@ -5,7 +5,7 @@ Simple Translate App From Clipboard (Translate From Clipboard)
 
 The TFC listens the clipboard and translates the copied words using yandex translate. And it shows as notification.
 
-![TFC](images/tfcPicture.png)
+![TFC](images/tfcPicture.jpg)
 
 # Setup
 Firstly, take a yandex translate api key.
