@@ -5,7 +5,7 @@ import tfc
 from setuptools import setup
 
 setup(name='tfc',
-      version='0.1.0',
+      version='0.2.0',
       description='Simple Translate App From Clipboard',
       long_description=open('README.md').read(),
       author='Yunus Emre Geldegul',

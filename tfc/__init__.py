@@ -21,3 +21,6 @@ def main():
 
     translation = Translation(config)
     translation.start()
+
+if __name__ == '__main__':
+    main()
