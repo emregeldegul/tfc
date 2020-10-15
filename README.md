@@ -1,18 +1,18 @@
 # TFC
-Simple Translate App From Clipboard (Translate From Clipboard)
+Translate From Clipboard (Simple Translate App From Clipboard)
 
 ![TFC](images/tfc.png)
 
-The TFC listens the clipboard and translates the copied words using yandex translate. And it shows as notification.
+TFC listens to the clipboard and translates the copied words using Yandex Translate. It shows translations as notifications.
 
 ![TFC](images/tfcPicture.jpg)
 
 # Setup
-Firstly, take a yandex translate api key.
+Firstly, take a Yandex Translate API key.
 
 **Yandex Translate API:** https://tech.yandex.com/translate/doc/dg/concepts/about-docpage/
 
-After take api key, create a config file as `.tfc.config.json` on **home** directory.
+After taking the API key, create a config file as `.tfc.config.json` on **home** directory.
 
 It should look like this:
 
@@ -22,7 +22,7 @@ It should look like this:
     "lang": "en-tr"
 }
 ```
-Ok. Now you can download and install.
+Ok. Now you can download and install the project.
 
 ```bash
 ~$ git clone https://github.com/emregeldegul/tfc && cd tfc
@@ -30,13 +30,14 @@ Ok. Now you can download and install.
 ~$ python setup.py install
 ```
 
-That's all. Now you can run the program by write `tfc` from the terminal.
+That's it. You can now run the program from the terminal by writing `tfc`.
 
 ```bash
 ~$ tfc
 ```
 
 # Project Idea
-I learning English and I translate the words I don't know one by one. It's difficult.
 
-Previously, Ömer Faruk Bayram wrote a similar project. But he deleted the project. So I wrote it again.
+I was learning English and every time I encountered with a word that was strange to me, I was looking to it's meaning from dictionaries. It was difficult, repetitive and unnecessary. Because of my own necessity and problem I developed this project.
+
+Previously, Ömer Faruk Bayram had written a similar project. But he deleted the project. So I wrote it from scratch.
