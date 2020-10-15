@@ -3,7 +3,7 @@ Translate From Clipboard (Simple Translate App From Clipboard)
 
 ![TFC](images/tfc.png)
 
-TFC listens to the clipboard and translates the copied words using Yandex Translate. It shows translations as notification.
+TFC listens to the clipboard and translates the copied words using Yandex Translate. It shows translations as notifications.
 
 ![TFC](images/tfcPicture.jpg)
 
