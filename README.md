@@ -30,7 +30,7 @@ Ok. Now you can download and install the project.
 ~$ python setup.py install
 ```
 
-That's it. Now you can run the program by writing `tfc` from the terminal.
+That's it. You can now run the program from the terminal by writing `tfc`.
 
 ```bash
 ~$ tfc
