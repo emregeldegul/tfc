@@ -6,9 +6,7 @@ from time import sleep
 from xerox import paste
 
 class Translation():
-    def __init__(self, config):
-        self.config = config
-
+    def __init__(self):
         self.translate = Translator()
         self.notify = Notify()
 
