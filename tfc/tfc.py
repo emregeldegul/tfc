@@ -1,5 +1,5 @@
 from .notify import Notify
-from .translate import Translate
+from googletrans import Translator
 
 from json import loads
 from time import sleep
@@ -9,7 +9,7 @@ class Translation():
     def __init__(self, config):
         self.config = config
 
-        self.translate = Translate(self.config)
+        self.translate = Translator()
         self.notify = Notify()
 
     def start(self):
@@ -18,11 +18,11 @@ class Translation():
         while True:
             recent_value = paste()
             if recent_value != temp_value:
-                result = self.translate.send_request(recent_value)
-                if result['status'] == True:
-                    self.notify.send(recent_value, result['response'])
-                else:
-                    print('Error: ' + str(result['response']))
+                try:
+                    result = self.translate.translate(recent_value, dest='tr')
+                    self.notify.send(recent_value, result.text)
+                except Exception as e:
+                    self.notify.send('A Problem Occurred', str(e))
 
             temp_value = recent_value
             sleep(2)
