@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-import tfc
-
 from setuptools import setup
 
 setup(name='tfc',
