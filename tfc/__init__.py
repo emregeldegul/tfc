@@ -9,12 +9,12 @@ def main():
     parser.add_argument("--src", help="source language", default="auto")
     options = parser.parse_args()
 
-    print('TFC listens To Your Clipboard For Translation.')
-    print('='*50)
+    print("TFC listens To Your Clipboard For Translation.")
+    print("="*50)
 
     translation = Translation(options.dest, options.src)
     translation.start()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
