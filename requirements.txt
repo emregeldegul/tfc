@@ -1,6 +1,6 @@
 certifi==2023.7.22
 chardet==3.0.4
-idna==2.8
+idna==3.7
 googletrans==3.1.0a0
 urllib3==1.26.18
 xerox==0.4.1
